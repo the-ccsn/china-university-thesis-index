@@ -10,7 +10,7 @@ For multi language version for this repository, please touch here to browse.
 
 | 包名       | 学校           | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址               |
 | ---------- | -------------- | --------------------------------- | ------------- | -------------- | -------------------------- |
-| thuthesis  | 清华大学       |                                   |               |                | www.ctan.org/pkg/thuthesis |
+| thuthesis  | 清华大学       | github.com/tuna/thuthesis         |               |                | www.ctan.org/pkg/thuthesis |
 | cquthesis  | 重庆大学       |                                   |               |                | www.ctan.org/pkg/cquthesis |
 | hithesis   | 哈尔滨工业大学 |                                   |               |                | www.ctan.org/pkg/hithesis  |
 | buctthesis | 北京化工大学   | github.com/Miracle0565/buctthesis |               |                |                            |
