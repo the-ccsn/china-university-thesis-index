@@ -8,12 +8,13 @@ For multi language version for this repository, please touch here to browse.
 
 ## 完整列表
 
-| 包名       | 学校           | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址               |
-| ---------- | -------------- | --------------------------------- | ------------- | -------------- | -------------------------- |
-| thuthesis  | 清华大学       | github.com/tuna/thuthesis         |               |                | www.ctan.org/pkg/thuthesis |
-| cquthesis  | 重庆大学       |                                   |               |                | www.ctan.org/pkg/cquthesis |
-| hithesis   | 哈尔滨工业大学 |                                   |               |                | www.ctan.org/pkg/hithesis  |
-| buctthesis | 北京化工大学   | github.com/Miracle0565/buctthesis |               |                |                            |
+| 包名       | 学校           | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
+| ---------- | -------------- | --------------------------------- | ------------- | -------------- | ----------------------- | ------------ |
+| thuthesis  | 清华大学       | github.com/tuna/thuthesis         | 暂无          | 暂无           | ctan.org/pkg/thuthesis  |              |
+| cquthesis  | 重庆大学       | github.com/nanmu42/CQUThesis      | 暂无          | 暂无           | ctan.org/pkg/cquthesis  |              |
+| hithesis   | 哈尔滨工业大学 | github.com/dustincys/hithesis     | 暂无          | 暂无           | ctan.org/pkg/hithesis   |              |
+| buctthesis | 北京化工大学   | github.com/Miracle0565/buctthesis | 暂无          | 暂无           | ctan.org/pkg/buctthesis | 暂未承认     |
+| fduthesis  | 复旦大学       | github.com/stone-zeng/fduthesis   | 暂无          | 暂无           |                         |              |
 
 ## 命名规则介绍
 
@@ -24,3 +25,4 @@ For multi language version for this repository, please touch here to browse.
 1. 已经被收录CTAN的优先，未收录的次之
 2. 按照包名完整名称字母表顺序排序
 
+3.排序将在每月第1个周日手动更新
