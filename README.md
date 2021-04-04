@@ -15,6 +15,15 @@ For multi language version for this repository, please touch here to browse.
 | hithesis   | 哈尔滨工业大学 | github.com/dustincys/hithesis     | 暂无          | 暂无           | ctan.org/pkg/hithesis   |              |
 | buctthesis | 北京化工大学   | github.com/Miracle0565/buctthesis | 暂无          | 暂无           | ctan.org/pkg/buctthesis | 暂未承认     |
 | fduthesis  | 复旦大学       | github.com/stone-zeng/fduthesis   | 暂无          | 暂无           |                         |              |
+| sduthesis  | 山东大学       |    | 暂无          | 暂无           | ctan.org/pkg/sduthesis |              |
+| bithesis | 北京理工大学     | [github.com/BITNP/BIThesis](https://github.com/BITNP/BIThesis) | 暂无          | 暂无           | ctan.org/pkg/bithesis |              |
+| ShtThesis | 伤害科技大学   | [github.com/lirundong/shtthesis](https://github.com/lirundong/shtthesis) | 暂无          | 暂无           | ctan.org/pkg/shtthesis |              |
+| pkuthss | 北京大学       |    | 暂无          | 暂无           | ctan.org/pkg/pkuthss |              |
+| uestcthesis | 程度电子科技大学 | [github.com/shifujun/UESTCthesis](https://github.com/shifujun/UESTCthesis) | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
+| xtuthesis | 湘潭大学         | [github.com/MrDongdongLin/xtuthesis](https://github.com/MrDongdongLin/xtuthesis) |  |  | ctan.org/pkg/xtuthesis | |
+|  |                  |  |  |  |  | |
+|  |                  |  |  |  |  | |
+|  |                  |  |  |  |  | |
 
 ## 命名规则介绍
 
