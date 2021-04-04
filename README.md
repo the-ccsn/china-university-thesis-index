@@ -25,6 +25,9 @@ For multi language version for this repository, please touch here to browse.
 |  |                  |  |  |  |  | |
 |  |                  |  |  |  |  | |
 
+## 收录规则
+1. 只要在公开平台存在这个包，就可以收录。不需要多个托管平台都公开，不一定非得多个来源都存在。
+
 ## 命名规则介绍
 
 1. 不同学校对于thesis前校名缩写处理方式不同。如校名缩写最后一字母为t，t与thesis的t是否合并，均有例可援引。
