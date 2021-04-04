@@ -21,8 +21,8 @@ For multi language version for this repository, please touch here to browse.
 | pkuthss | 北京大学       |    | 暂无          | 暂无           | ctan.org/pkg/pkuthss |              |
 | uestcthesis | 程度电子科技大学 | [github.com/shifujun/UESTCthesis](https://github.com/shifujun/UESTCthesis) | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
 | xtuthesis | 湘潭大学         | [github.com/MrDongdongLin/xtuthesis](https://github.com/MrDongdongLin/xtuthesis) |  |  | ctan.org/pkg/xtuthesis | |
-|  |                  |  |  |  |  | |
-|  |                  |  |  |  |  | |
+| seuthesix | 东南大学 | [github.com/zhimengfan1990/seuthesix](https://github.com/zhimengfan1990/seuthesix) |  |  | ctan.org/pkg/seuthesix | |
+| hustthesis | 华中科技大学 | [github.com/hust-latex/hustthesis](https://github.com/hust-latex/hustthesis) |  |  | ctan.org/pkg/hustthesis | |
 |  |                  |  |  |  |  | |
 
 ## 收录规则
