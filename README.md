@@ -12,6 +12,7 @@ For multi language version for this repository, please touch here to browse. Ple
 | ---------- | -------------- | --------------------------------- | ------------- | -------------- | ----------------------- | ------------ | ------------ |
 | bithesis | 北京理工大学     | 组织 | github.com/BITNP/BIThesis | 暂无          | 暂无           | ctan.org/pkg/bithesis |
 | buctthesis | 北京化工大学   | 个人 | github.com/Miracle0565/buctthesis | 暂无          | 暂无           | ctan.org/pkg/buctthesis | 暂未承认     |
+| chdthesis  | 长安大学       | 个人  | github.com/xiaoleeza/chdthesis      | 暂无          | 暂无           |   |              |
 | cquthesis  | 重庆大学       | 个人  | github.com/nanmu42/CQUThesis      | 暂无          | 暂无           | ctan.org/pkg/cquthesis  |              |
 | fduthesis  | 复旦大学       | 个人 | github.com/stone-zeng/fduthesis   | 暂无          | 暂无           | ctan.org/pkg/fduthesis |              |
 | hithesis   | 哈尔滨工业大学 | 个人   | github.com/dustincys/hithesis     | 暂无          | 暂无           | ctan.org/pkg/hithesis   |              |
