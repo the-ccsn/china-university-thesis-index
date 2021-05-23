@@ -17,10 +17,12 @@ For multi language version for this repository, please touch here to browse. Ple
 | fduthesis  | 复旦大学       | 个人 | github.com/stone-zeng/fduthesis   | 暂无          | 暂无           | ctan.org/pkg/fduthesis |              |
 | hithesis   | 哈尔滨工业大学 | 个人   | github.com/dustincys/hithesis     | 暂无          | 暂无           | ctan.org/pkg/hithesis   |              |
 | hustthesis | 华中科技大学 | 组织 | github.com/hust-latex/hustthesis | 暂无 | 暂无 | ctan.org/pkg/hustthesis | |
+| njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |
 | pkuthss | 北京大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/pkuthss |              |
 | sduthesis  | 山东大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/sduthesis |              |
 | seuthesix | 东南大学 | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | |
 | ShtThesis | 上海科技大学 | 个人 | github.com/lirundong/shtthesis| 暂无          | 暂无           | ctan.org/pkg/shtthesis |              |
+| sysu-thesis | 中山大学       | 组织 | github.com/SYSU-SCC/sysu-thesis | 暂无 | gitlab.com/sysu-gitlab/latex-group/thesis (Archived) |  | 教师支持 |
 | thuthesis  | 清华大学       | 组织       | github.com/tuna/thuthesis         | 暂无          | 暂无           | ctan.org/pkg/thuthesis  |              |
 | uestcthesis | 成都电子科技大学 | 个人 | github.com/shifujun/UESTCthesis | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
 | xtuthesis | 湘潭大学         | 个人 | github.com/MrDongdongLin/xtuthesis | 暂无 | 暂无 | ctan.org/pkg/xtuthesis | |
