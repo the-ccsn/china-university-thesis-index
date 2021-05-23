@@ -26,8 +26,6 @@ For multi language version for this repository, please touch here to browse. Ple
 | thuthesis  | 清华大学       | 组织       | github.com/tuna/thuthesis         | 暂无          | 暂无           | ctan.org/pkg/thuthesis  |              |
 | uestcthesis | 成都电子科技大学 | 个人 | github.com/shifujun/UESTCthesis | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
 | xtuthesis | 湘潭大学         | 个人 | github.com/MrDongdongLin/xtuthesis | 暂无 | 暂无 | ctan.org/pkg/xtuthesis | |
-| sysu-thesis | 中山大学       | 组织 | github.com/SYSU-SCC/sysu-thesis | 暂无 | gitlab.com/sysu-gitlab/latex-group/thesis (Archived) |  | 教师支持 | 
-| njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |
 | ustcthesis | 中国科学技术大学 | 组织 | github.com/ustctug/ustcthesis | 暂无 | 暂无 | 暂无 | 官方 |
 
 ## 收录规则
