@@ -12,20 +12,20 @@ For multi language version for this repository, please touch here to browse. Ple
 | ---------- | -------------- | --------------------------------- | ------------- | -------------- | ----------------------- | ------------ | ------------ |
 | bithesis | 北京理工大学     | 组织 | github.com/BITNP/BIThesis | 暂无          | 暂无           | ctan.org/pkg/bithesis |
 | buctthesis | 北京化工大学   | 个人 | github.com/Miracle0565/buctthesis | 暂无          | 暂无           | ctan.org/pkg/buctthesis | 暂未承认     |
-| chdthesis  | 长安大学       | 个人  | github.com/xiaoleeza/chdthesis      | 暂无          | 暂无           |   |              |
 | cquthesis  | 重庆大学       | 个人  | github.com/nanmu42/CQUThesis      | 暂无          | 暂无           | ctan.org/pkg/cquthesis  |              |
 | fduthesis  | 复旦大学       | 个人 | github.com/stone-zeng/fduthesis   | 暂无          | 暂无           | ctan.org/pkg/fduthesis |              |
 | hithesis   | 哈尔滨工业大学 | 个人   | github.com/dustincys/hithesis     | 暂无          | 暂无           | ctan.org/pkg/hithesis   |              |
 | hustthesis | 华中科技大学 | 组织 | github.com/hust-latex/hustthesis | 暂无 | 暂无 | ctan.org/pkg/hustthesis | |
-| njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |
 | pkuthss | 北京大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/pkuthss |              |
 | sduthesis  | 山东大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/sduthesis |              |
 | seuthesix | 东南大学 | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | |
 | ShtThesis | 上海科技大学 | 个人 | github.com/lirundong/shtthesis| 暂无          | 暂无           | ctan.org/pkg/shtthesis |              |
-| sysu-thesis | 中山大学       | 组织 | github.com/SYSU-SCC/sysu-thesis | 暂无 | gitlab.com/sysu-gitlab/latex-group/thesis (Archived) |  | 教师支持 |
 | thuthesis  | 清华大学       | 组织       | github.com/tuna/thuthesis         | 暂无          | 暂无           | ctan.org/pkg/thuthesis  |              |
 | uestcthesis | 成都电子科技大学 | 个人 | github.com/shifujun/UESTCthesis | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
 | xtuthesis | 湘潭大学         | 个人 | github.com/MrDongdongLin/xtuthesis | 暂无 | 暂无 | ctan.org/pkg/xtuthesis | |
+| chdthesis  | 长安大学       | 个人  | github.com/xiaoleeza/chdthesis      | 暂无          | 暂无           |   |              |
+| njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |
+| sysu-thesis | 中山大学       | 组织 | github.com/SYSU-SCC/sysu-thesis | 暂无 | gitlab.com/sysu-gitlab/latex-group/thesis (Archived) |  | 教师支持 |
 | ustcthesis | 中国科学技术大学 | 组织 | github.com/ustctug/ustcthesis | 暂无 | 暂无 | 暂无 | 官方 |
 | whu-thesis | 武汉大学       | 组织 | github.com/whutug/whu-thesis | 暂无 | 暂无 | 暂无 | 教师支持 |
 | zjuthesis | 浙江大学       | 组织 | github.com/TheNetAdmin/zjuthesis | 暂无 | 暂无 | 暂无 | 未知 |
