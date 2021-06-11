@@ -29,6 +29,7 @@ For multi language version for this repository, please touch here to browse. Ple
 | ustcthesis | 中国科学技术大学 | 组织 | github.com/ustctug/ustcthesis | 暂无 | 暂无 | 暂无 | 官方 |
 | whu-thesis | 武汉大学       | 组织 | github.com/whutug/whu-thesis | 暂无 | 暂无 | 暂无 | 教师支持 |
 | zjuthesis | 浙江大学       | 组织 | github.com/TheNetAdmin/zjuthesis | 暂无 | 暂无 | 暂无 | 未知 |
+| ucasthesis | 中国科学院大学       | 个人 | github.com/mohuangrui/ucasthesis | 暂无 | 暂无 | 暂无 | 未知 |
 
 ## 收录规则
 
