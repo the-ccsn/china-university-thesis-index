@@ -9,7 +9,7 @@ For multi language version for this repository, please touch here to browse. Ple
 ## 完整列表
 
 | 包名       | 学校           | 维护者性质            | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
-| ---------- | -------------- | --------------------------------- | ------------- | -------------- | ----------------------- | ------------ | ------------ |
+| - | - | - | - | - | - | - | - |
 | bithesis | 北京理工大学     | 组织 | github.com/BITNP/BIThesis | 暂无          | 暂无           | ctan.org/pkg/bithesis |
 | buctthesis | 北京化工大学   | 个人 | github.com/Miracle0565/buctthesis | 暂无          | 暂无           | ctan.org/pkg/buctthesis | 暂未承认     |
 | cquthesis  | 重庆大学       | 个人  | github.com/nanmu42/CQUThesis      | 暂无          | 暂无           | ctan.org/pkg/cquthesis  |              |
