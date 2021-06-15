@@ -30,6 +30,8 @@ For multi language version for this repository, please touch here to browse. Ple
 | whu-thesis | 武汉大学       | 组织 | github.com/whutug/whu-thesis | 暂无 | 暂无 | 暂无 | 教师支持 |
 | zjuthesis | 浙江大学       | 组织 | github.com/TheNetAdmin/zjuthesis | 暂无 | 暂无 | 暂无 | 未知 |
 | ucasthesis | 中国科学院大学       | 个人 | github.com/mohuangrui/ucasthesis | 暂无 | 暂无 | 暂无 | 未知 |
+| seuthesix  | 东南大学       | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | 未知 |
+| bjfuthesis | 北京林业大学       | 个人 | github.com/bjfu-projects/bjfuthesis | 暂无 | 暂无 | ctan.org/pkg/bjfuthesis | 未知 |
 
 ## 收录规则
 
