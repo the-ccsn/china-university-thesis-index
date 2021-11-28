@@ -32,6 +32,7 @@ For multi language version for this repository, please touch here to browse. Ple
 | ucasthesis | 中国科学院大学       | 个人 | github.com/mohuangrui/ucasthesis | 暂无 | 暂无 | 暂无 | 未知 |
 | seuthesix  | 东南大学       | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | 未知 |
 | bjfuthesis | 北京林业大学       | 个人 | github.com/bjfu-projects/bjfuthesis | 暂无 | 暂无 | ctan.org/pkg/bjfuthesis | 未知 |
+| hfut_thesis | 合肥工业大学 | 组织 | github.com/HFUTTUG/HFUT_Thesis | 暂无 | 暂无 | 暂无 | 未知 |
 
 ## 收录规则
 
