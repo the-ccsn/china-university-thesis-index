@@ -1,33 +1,43 @@
 import json
 
+
 def x_sort(data):
     return data
 
-def markdown_row(len:int,data:list):
-    string=""
+
+def markdown_row(len: int, data: list):
+    string = ""
     for i in range(len):
-        string+="| "+str(data[i])+" "
-    string+="|\n"
+        string += "| " + str(data[i]) + " "
+    string += "|\n"
     return string
 
-def markdown_header(translation:dict,locale:str):
-    locale_translation={}
+
+def markdown_header(translation: dict, locale: str):
+    locale_translation = {}
     for i in range(len(translation)):
         if translation[i]["locale"] == locale:
-            locale_translation=translation[i]["translation"]
-    data= [locale_translation["package_name"], locale_translation["institution_name"],
-           locale_translation["maintainer_type"], locale_translation["github_repository"],
-           locale_translation["gitlab_repository"], locale_translation["gitee_repository"],
-           locale_translation["ctan_package"], locale_translation["status"]]
-    return markdown_row(len(data),data)
+            locale_translation = translation[i]["translation"]
+    data = [
+        locale_translation["package_name"],
+        locale_translation["institution_name"],
+        locale_translation["maintainer_type"],
+        locale_translation["github_repository"],
+        locale_translation["gitlab_repository"],
+        locale_translation["gitee_repository"],
+        locale_translation["ctan_package"],
+        locale_translation["status"],
+    ]
+    return markdown_row(len(data), data)
 
 
-def markdown_table(length:int):
-    data=["-","-","-","-","-","-","-","-"]
-    return markdown_row(length,data)
+def markdown_table(length: int):
+    data = ["-", "-", "-", "-", "-", "-", "-", "-"]
+    return markdown_row(length, data)
 
-def markdown_entry(thesis_entry:dict):
-    data=[
+
+def markdown_entry(thesis_entry: dict):
+    data = [
         thesis_entry["package_name"],
         thesis_entry["institution_name"],
         thesis_entry["maintainer_type"],
@@ -35,9 +45,10 @@ def markdown_entry(thesis_entry:dict):
         thesis_entry["gitlab_repository"],
         thesis_entry["gitee_repository"],
         thesis_entry["ctan_package"],
-        thesis_entry["status"]
+        thesis_entry["status"],
     ]
-    return markdown_row(len(data),data)
+    return markdown_row(len(data), data)
+
 
 def markdown_gen():
     thesis_json = open("..\\data\\thesis.json", "r", encoding="utf-8")
@@ -46,26 +57,40 @@ def markdown_gen():
     column_data = json.loads(column_json.read())
     string = ""
     string += markdown_header(column_data["i18n"], "zh-CN")
-    string += markdown_table(column_data["len"], )
+    string += markdown_table(
+        column_data["len"],
+    )
     # WRONG CODE: thesis_data.sort(key=lambda x: x["package_name"])
-    thesis_data=x_sort(thesis_data)
+    thesis_data = x_sort(thesis_data)
     for i in range(len(thesis_data)):
         string += markdown_entry(thesis_data[i])
     return string
 
-def markdown_body(text,token_begin, token_warn, token_end):
+
+def markdown_body(text, token_begin, token_warn, token_end):
     readme_slice = text.split(token_begin)
     readme_slice.append(readme_slice[1].split(token_warn)[0])
     readme_slice.append(readme_slice[1].split(token_end)[1])
-    markdown = readme_slice[0] + token_begin + "\n" + token_warn + "\n" + markdown_gen() + "\n" + token_end + readme_slice[3]
+    markdown = (
+        readme_slice[0]
+        + token_begin
+        + "\n"
+        + token_warn
+        + "\n"
+        + markdown_gen()
+        + "\n"
+        + token_end
+        + readme_slice[3]
+    )
     return markdown
 
-syntax_1="<!-- MARKDOWN_TABLE BEGIN -->"
-syntax_2="<!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->"
-syntax_3="<!-- MARKDOWN_TABLE END -->"
-readme_file=open("..\\README.md","r",encoding="utf-8")
-readme_text=readme_file.read()
+
+syntax_1 = "<!-- MARKDOWN_TABLE BEGIN -->"
+syntax_2 = "<!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->"
+syntax_3 = "<!-- MARKDOWN_TABLE END -->"
+readme_file = open("..\\README.md", "r", encoding="utf-8")
+readme_text = readme_file.read()
 readme_file.close()
-readme_file=open("..\\README.md","w",encoding="utf-8")
-readme_file.write(markdown_body(readme_text,syntax_1,syntax_2,syntax_3))
+readme_file = open("..\\README.md", "w", encoding="utf-8")
+readme_file.write(markdown_body(readme_text, syntax_1, syntax_2, syntax_3))
 readme_file.close()
