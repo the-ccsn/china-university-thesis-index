@@ -15,13 +15,6 @@ For multi language version for this repository, please touch here to browse. Ple
 
 | 包名       | 学校           | 维护者性质            | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
 | - | - | - | - | - | - | - | - |
-| pkuthss | 北京大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/pkuthss |              |
-| sduthesis  | 山东大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/sduthesis |              |
-| seuthesix  | 东南大学       | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | 未知 |
-| ShtThesis | 上海科技大学 | 个人 | github.com/lirundong/shtthesis| 暂无          | 暂无           | ctan.org/pkg/shtthesis |              |
-| thuthesis  | 清华大学       | 组织       | github.com/tuna/thuthesis         | 暂无          | 暂无           | ctan.org/pkg/thuthesis  |              |
-| uestcthesis | 成都电子科技大学 | 个人 | github.com/shifujun/UESTCthesis | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
-| xtuthesis | 湘潭大学         | 个人 | github.com/MrDongdongLin/xtuthesis | 暂无 | 暂无 | ctan.org/pkg/xtuthesis | |
 | chdthesis  | 长安大学       | 个人  | github.com/xiaoleeza/chdthesis      | 暂无          | 暂无           |   |              |
 | hfut_thesis | 合肥工业大学 | 组织 | github.com/HFUTTUG/HFUT_Thesis | 暂无 | 暂无 | 暂无 | 未知 |
 | njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |

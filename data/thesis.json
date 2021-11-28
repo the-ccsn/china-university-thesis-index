@@ -59,7 +59,7 @@
       "gitee_repository": "",
       "ctan_package": "ctan.org/pkg/hithesis",
       "status": ""
-    }
+    },
     {
       "package_name": "hustthesis",
       "institution_name": "华中科技大学",
@@ -68,6 +68,76 @@
       "gitlab_repository": "",
       "gitee_repository": "",
       "ctan_package": "ctan.org/pkg/hustthesis",
+      "status": ""
+    },
+    {
+      "package_name": "pkuthss",
+      "institution_name": "北京大学",
+      "maintainer_type": "未知",
+      "github_repository": "",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/pkuthss",
+      "status": ""
+    },
+    {
+      "package_name": "sduthesis",
+      "institution_name": "山东大学",
+      "maintainer_type": "未知",
+      "github_repository": "",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/sduthesis",
+      "status": ""
+    },
+    {
+      "package_name": "seuthesix",
+      "institution_name": "东南大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/zhimengfan1990/seuthesix",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/seuthesix",
+      "status": ""
+    },
+    {
+      "package_name": "ShtThesis",
+      "institution_name": "上海科技大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/lirundong/shtthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/shtthesis",
+      "status": ""
+    },
+    {
+      "package_name": "thuthesis",
+      "institution_name": "清华大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/tuna/thuthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/thuthesis",
+      "status": ""
+    },
+    {
+      "package_name": "uestcthesis",
+      "institution_name": "成都电子科技大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/shifujun/UESTCthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/uestcthesis",
+      "status": ""
+    },
+    {
+      "package_name": "xtuthesis",
+      "institution_name": "湘潭大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/MrDongdongLin/xtuthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/xtuthesis",
       "status": ""
     }
   ]
