@@ -36,13 +36,26 @@ def markdown_entry(thesis_entry:dict):
     ]
     return markdown_row(len(data),data)
 
-thesis_json= open("..\\data\\thesis.json", "r", encoding="utf-8")
-thesis_data=json.loads(thesis_json.read())["CUTI"]
-column_json= open("..\\data\\column.json", "r", encoding="utf-8")
-column_data=json.loads(column_json.read())
-tmp=""
-tmp+=markdown_header(column_data["i18n"],"zh-CN")
-tmp+=markdown_table(column_data["len"],)
-for i in range(len(thesis_data)):
-    tmp+=markdown_entry(thesis_data[i])
-print(tmp)
+def markdown_gen():
+    thesis_json = open("..\\data\\thesis.json", "r", encoding="utf-8")
+    thesis_data = json.loads(thesis_json.read())["CUTI"]
+    column_json = open("..\\data\\column.json", "r", encoding="utf-8")
+    column_data = json.loads(column_json.read())
+    string = ""
+    string += markdown_header(column_data["i18n"], "zh-CN")
+    string += markdown_table(column_data["len"], )
+    for i in range(len(thesis_data)):
+        string += markdown_entry(thesis_data[i])
+    return string
+
+readme_file=open("..\\README.md","r",encoding="utf-8")
+readme_text=readme_file.read()
+readme_file.close()
+readme_slice=readme_text.split("<!-- MARKDOWN_TABLE BEGIN -->")
+readme_slice.append(readme_slice[1].split("<!-- MARKDOWN_TABLE END -->")[0])
+readme_slice.append(readme_slice[1].split("<!-- MARKDOWN_TABLE END -->")[1])
+syntax_1="<!-- MARKDOWN_TABLE BEGIN -->"
+syntax_2="<!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->"
+syntax_3="<!-- MARKDOWN_TABLE END -->"
+markdown=readme_slice[0]+syntax_1+"\n"+syntax_2+"\n"+markdown_gen()+"\n"+syntax_3+readme_slice[3]
+readme_file=open("..\\README.md","w",encoding="utf-8").write(markdown)
