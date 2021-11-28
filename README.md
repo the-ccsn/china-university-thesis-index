@@ -11,6 +11,7 @@ For multi language version for this repository, please touch here to browse. Ple
 | 包名       | 学校           | 维护者性质            | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
 | - | - | - | - | - | - | - | - |
 | bithesis | 北京理工大学     | 组织 | github.com/BITNP/BIThesis | 暂无          | 暂无           | ctan.org/pkg/bithesis |
+| bjfuthesis | 北京林业大学       | 个人 | github.com/bjfu-projects/bjfuthesis | 暂无 | 暂无 | ctan.org/pkg/bjfuthesis | 未知 |
 | buctthesis | 北京化工大学   | 个人 | github.com/Miracle0565/buctthesis | 暂无          | 暂无           | ctan.org/pkg/buctthesis | 暂未承认     |
 | cquthesis  | 重庆大学       | 个人  | github.com/nanmu42/CQUThesis      | 暂无          | 暂无           | ctan.org/pkg/cquthesis  |              |
 | fduthesis  | 复旦大学       | 个人 | github.com/stone-zeng/fduthesis   | 暂无          | 暂无           | ctan.org/pkg/fduthesis |              |
@@ -18,21 +19,20 @@ For multi language version for this repository, please touch here to browse. Ple
 | hustthesis | 华中科技大学 | 组织 | github.com/hust-latex/hustthesis | 暂无 | 暂无 | ctan.org/pkg/hustthesis | |
 | pkuthss | 北京大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/pkuthss |              |
 | sduthesis  | 山东大学       | 未知 |    | 暂无          | 暂无           | ctan.org/pkg/sduthesis |              |
-| seuthesix | 东南大学 | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | |
+| seuthesix  | 东南大学       | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | 未知 |
 | ShtThesis | 上海科技大学 | 个人 | github.com/lirundong/shtthesis| 暂无          | 暂无           | ctan.org/pkg/shtthesis |              |
 | thuthesis  | 清华大学       | 组织       | github.com/tuna/thuthesis         | 暂无          | 暂无           | ctan.org/pkg/thuthesis  |              |
 | uestcthesis | 成都电子科技大学 | 个人 | github.com/shifujun/UESTCthesis | 暂无          | 暂无           | ctan.org/pkg/uestcthesis |              |
 | xtuthesis | 湘潭大学         | 个人 | github.com/MrDongdongLin/xtuthesis | 暂无 | 暂无 | ctan.org/pkg/xtuthesis | |
 | chdthesis  | 长安大学       | 个人  | github.com/xiaoleeza/chdthesis      | 暂无          | 暂无           |   |              |
+| hfut_thesis | 合肥工业大学 | 组织 | github.com/HFUTTUG/HFUT_Thesis | 暂无 | 暂无 | 暂无 | 未知 |
 | njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |
 | sysu-thesis | 中山大学       | 组织 | github.com/SYSU-SCC/sysu-thesis | 暂无 | gitlab.com/sysu-gitlab/latex-group/thesis (Archived) |  | 教师支持 |
+| ucasthesis | 中国科学院大学       | 个人 | github.com/mohuangrui/ucasthesis | 暂无 | 暂无 | 暂无 | 未知 |
 | ustcthesis | 中国科学技术大学 | 组织 | github.com/ustctug/ustcthesis | 暂无 | 暂无 | 暂无 | 官方 |
 | whu-thesis | 武汉大学       | 组织 | github.com/whutug/whu-thesis | 暂无 | 暂无 | 暂无 | 教师支持 |
 | zjuthesis | 浙江大学       | 组织 | github.com/TheNetAdmin/zjuthesis | 暂无 | 暂无 | 暂无 | 未知 |
-| ucasthesis | 中国科学院大学       | 个人 | github.com/mohuangrui/ucasthesis | 暂无 | 暂无 | 暂无 | 未知 |
-| seuthesix  | 东南大学       | 个人 | github.com/zhimengfan1990/seuthesix | 暂无 | 暂无 | ctan.org/pkg/seuthesix | 未知 |
-| bjfuthesis | 北京林业大学       | 个人 | github.com/bjfu-projects/bjfuthesis | 暂无 | 暂无 | ctan.org/pkg/bjfuthesis | 未知 |
-| hfut_thesis | 合肥工业大学 | 组织 | github.com/HFUTTUG/HFUT_Thesis | 暂无 | 暂无 | 暂无 | 未知 |
+
 
 ## 收录规则
 
@@ -47,5 +47,9 @@ For multi language version for this repository, please touch here to browse. Ple
 ## 排序规则
 
 1. 已经被收录CTAN的优先，未收录的次之
-2. 按照包名完整名称字母表顺序排序
+2. 按照包名完整名称字母表顺序排序，排序中省略下划线等连接符，仅考虑字母
 3. 排序将在每月第1个周日手动更新
+
+## 未来计划
+
+将表格转为JSON或XML的形式，不再手动排序表格，而由Py或Node程序自动维护列表，并自动替换掉Markdown中段落，引入Github Action
