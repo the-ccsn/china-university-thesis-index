@@ -53,8 +53,4 @@ For multi language version for this repository, please touch here to browse. Ple
 
 1. 已经被收录CTAN的优先，未收录的次之
 2. 按照包名完整名称字母表顺序排序，排序中省略下划线等连接符，仅考虑字母
-3. 排序将在每月第1个周日手动更新
-
-## 未来计划
-
-将表格转为JSON或XML的形式，不再手动排序表格，而由Py或Node程序自动维护列表，并自动替换掉Markdown中段落，引入Github Action
+3. 排序将在每月第1个周日手动更新，未来考虑引入Github Action

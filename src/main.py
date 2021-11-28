@@ -2,12 +2,27 @@ import json
 
 
 def x_sort(data):
+    def compare(dict_a:dict, dict_b:dict):
+        dict_a_packagename = dict_a["package_name"].replace("_","").replace("-","").lower()
+        dict_b_packagename = dict_b["package_name"].replace("_","").replace("-","").lower()
+        dict_a_ctan=dict["ctan"]
+        dict_b_ctan=dict["ctan"]
+        if dict_a_ctan is "":
+            return -1
+        elif dict_b_ctan is "":
+            return 1
+        else:
+            if dict_a_packagename < dict_b_packagename:
+                return -1
+            if dict_a_packagename > dict_b_packagename:
+                return 1
+    data.sort(compare)
     return data
 
 
-def markdown_row(len: int, data: list):
+def markdown_row(length: int, data: list):
     string = ""
-    for i in range(len):
+    for i in range(length):
         string += "| " + str(data[i]) + " "
     string += "|\n"
     return string
@@ -82,7 +97,10 @@ def markdown_body(text, token_begin, token_warn, token_end):
         + token_end
         + readme_slice[3]
     )
-    return markdown
+    if markdown_gen() is "":
+        return text
+    else:
+        return markdown
 
 
 syntax_1 = "<!-- MARKDOWN_TABLE BEGIN -->"
