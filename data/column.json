@@ -1,0 +1,31 @@
+{
+  "len": 10,
+  "i18n": [
+    {
+      "locale": "en-US",
+      "Translation": {
+        "package_name": "",
+        "institution_name": "",
+        "maintainer_type": "",
+        "github_repository": "",
+        "gitlab_repository": "",
+        "gitee_repository": "",
+        "ctan_package": "",
+        "status": ""
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "Translation": {
+        "package_name": "包名",
+        "institution_name": "学校",
+        "maintainer_type": "维护者性质",
+        "github_repository": "GitHub仓库地址",
+        "gitlab_repository": "Gitee仓库地址",
+        "gitee_repository": "GitLab仓库地址",
+        "ctan_package": "CTAN仓库地址",
+        "status": "被学校承认状态"
+      }
+    }
+  ]
+}

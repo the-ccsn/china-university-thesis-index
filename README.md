@@ -13,9 +13,6 @@ For multi language version for this repository, please touch here to browse. Ple
 <!-- MARKDOWN_TABLE BEGIN -->
 <!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->
 
-| 包名       | 学校           | 维护者性质            | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
-| - | - | - | - | - | - | - | - |
-
 <!-- MARKDOWN_TABLE END -->
 
 ## 收录规则
