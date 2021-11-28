@@ -8,6 +8,9 @@ For multi language version for this repository, please touch here to browse. Ple
 
 ## 完整列表
 
+<!-- MARKDOWN_TABLE BEGIN -->
+<!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->
+
 | 包名       | 学校           | 维护者性质            | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
 | - | - | - | - | - | - | - | - |
 | bithesis | 北京理工大学     | 组织 | github.com/BITNP/BIThesis | 暂无          | 暂无           | ctan.org/pkg/bithesis |
@@ -33,6 +36,7 @@ For multi language version for this repository, please touch here to browse. Ple
 | whu-thesis | 武汉大学       | 组织 | github.com/whutug/whu-thesis | 暂无 | 暂无 | 暂无 | 教师支持 |
 | zjuthesis | 浙江大学       | 组织 | github.com/TheNetAdmin/zjuthesis | 暂无 | 暂无 | 暂无 | 未知 |
 
+<!-- MARKDOWN_TABLE END -->
 
 ## 收录规则
 
