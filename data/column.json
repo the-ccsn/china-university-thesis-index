@@ -4,14 +4,14 @@
     {
       "locale": "en-US",
       "translation": {
-        "package_name": "",
-        "institution_name": "",
-        "maintainer_type": "",
-        "github_repository": "",
-        "gitlab_repository": "",
-        "gitee_repository": "",
-        "ctan_package": "",
-        "status": ""
+        "package_name": "Package Name",
+        "institution_name": "Institution Name",
+        "maintainer_type": "Maintainer Type",
+        "github_repository": "Github Repository",
+        "gitlab_repository": "Gitlab Repository",
+        "gitee_repository": "Gitee Repository",
+        "ctan_package": "CTAN Package",
+        "status": "Status"
       }
     },
     {
