@@ -1,5 +1,8 @@
 import json
 
+def x_sort(data):
+    return data
+
 def markdown_row(len:int,data:list):
     string=""
     for i in range(len):
@@ -44,18 +47,25 @@ def markdown_gen():
     string = ""
     string += markdown_header(column_data["i18n"], "zh-CN")
     string += markdown_table(column_data["len"], )
+    # WRONG CODE: thesis_data.sort(key=lambda x: x["package_name"])
+    thesis_data=x_sort(thesis_data)
     for i in range(len(thesis_data)):
         string += markdown_entry(thesis_data[i])
     return string
 
-readme_file=open("..\\README.md","r",encoding="utf-8")
-readme_text=readme_file.read()
-readme_file.close()
-readme_slice=readme_text.split("<!-- MARKDOWN_TABLE BEGIN -->")
-readme_slice.append(readme_slice[1].split("<!-- MARKDOWN_TABLE END -->")[0])
-readme_slice.append(readme_slice[1].split("<!-- MARKDOWN_TABLE END -->")[1])
+def markdown_body(text,token_begin, token_warn, token_end):
+    readme_slice = text.split(token_begin)
+    readme_slice.append(readme_slice[1].split(token_warn)[0])
+    readme_slice.append(readme_slice[1].split(token_end)[1])
+    markdown = readme_slice[0] + token_begin + "\n" + token_warn + "\n" + markdown_gen() + "\n" + token_end + readme_slice[3]
+    return markdown
+
 syntax_1="<!-- MARKDOWN_TABLE BEGIN -->"
 syntax_2="<!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->"
 syntax_3="<!-- MARKDOWN_TABLE END -->"
-markdown=readme_slice[0]+syntax_1+"\n"+syntax_2+"\n"+markdown_gen()+"\n"+syntax_3+readme_slice[3]
-readme_file=open("..\\README.md","w",encoding="utf-8").write(markdown)
+readme_file=open("..\\README.md","r",encoding="utf-8")
+readme_text=readme_file.read()
+readme_file.close()
+readme_file=open("..\\README.md","w",encoding="utf-8")
+readme_file.write(markdown_body(readme_text,syntax_1,syntax_2,syntax_3))
+readme_file.close()
