@@ -1,5 +1,74 @@
 {
   "CUTI": [
-
+    {
+      "package_name": "bithesis",
+      "institution_name": "北京理工大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/BITNP/BIThesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/bithesis",
+      "status": ""
+    },
+    {
+      "package_name": "bjfuthesis",
+      "institution_name": "北京林业大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/bjfu-projects/bjfuthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/bjfuthesis",
+      "status": ""
+    },
+    {
+      "package_name": "buctthesis",
+      "institution_name": "北京化工大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/Miracle0565/buctthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/buctthesis",
+      "status": "暂未承认"
+    },
+    {
+      "package_name": "cquthesis",
+      "institution_name": "重庆大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/nanmu42/CQUThesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/cquthesis",
+      "status": ""
+    },
+    {
+      "package_name": "fduthesis",
+      "institution_name": "复旦大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/stone-zeng/fduthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/fduthesis",
+      "status": ""
+    },
+    {
+      "package_name": "hithesis",
+      "institution_name": "哈尔滨工业大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/dustincys/hithesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/hithesis",
+      "status": ""
+    }
+    {
+      "package_name": "hustthesis",
+      "institution_name": "华中科技大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/hust-latex/hustthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "ctan.org/pkg/hustthesis",
+      "status": ""
+    }
   ]
 }
