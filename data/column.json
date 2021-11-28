@@ -1,9 +1,9 @@
 {
-  "len": 10,
+  "len": 8,
   "i18n": [
     {
       "locale": "en-US",
-      "Translation": {
+      "translation": {
         "package_name": "",
         "institution_name": "",
         "maintainer_type": "",
@@ -16,7 +16,7 @@
     },
     {
       "locale": "zh-CN",
-      "Translation": {
+      "translation": {
         "package_name": "包名",
         "institution_name": "学校",
         "maintainer_type": "维护者性质",
