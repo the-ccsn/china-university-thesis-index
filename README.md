@@ -6,7 +6,9 @@ For multi language version for this repository, please touch here to browse. Ple
 
 ---
 
-## 完整列表
+## Thesis完整列表
+
+出于方便中文学生的目的，可能后续会添加作业类的模板和各学校的PPT模板。
 
 <!-- MARKDOWN_TABLE BEGIN -->
 <!-- WARNING: THIS TABLE IS MAINTAINED BY PROGRAMME, YOU SHOULD ADD DATA TO COLLECTION JSON -->
