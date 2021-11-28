@@ -1,22 +1,32 @@
 import json
+from functools import cmp_to_key
 
 
 def x_sort(data):
-    def compare(dict_a:dict, dict_b:dict):
-        dict_a_packagename = dict_a["package_name"].replace("_","").replace("-","").lower()
-        dict_b_packagename = dict_b["package_name"].replace("_","").replace("-","").lower()
-        dict_a_ctan=dict["ctan"]
-        dict_b_ctan=dict["ctan"]
-        if dict_a_ctan is "":
-            return -1
-        elif dict_b_ctan is "":
+    def compare(dict_a: dict, dict_b: dict):
+        dict_a_packagename = (
+            dict_a["package_name"].replace("_", "").replace("-", "").lower()
+        )
+        dict_b_packagename = (
+            dict_b["package_name"].replace("_", "").replace("-", "").lower()
+        )
+        dict_a_ctan = dict_a["ctan_package"]
+        dict_b_ctan = dict_b["ctan_package"]
+        if dict_a_ctan == "" and dict_b_ctan == "":
+            if dict_a_packagename < dict_b_packagename:
+                return -1
+            if dict_a_packagename > dict_b_packagename:
+                return 1
+        elif dict_a_ctan == "" and dict_b_ctan != "":
             return 1
+        elif dict_b_ctan == "" and dict_a_ctan != "":
+            return -1
         else:
             if dict_a_packagename < dict_b_packagename:
                 return -1
             if dict_a_packagename > dict_b_packagename:
                 return 1
-    data.sort(compare)
+    data=sorted(data,key=cmp_to_key(compare))
     return data
 
 
@@ -86,18 +96,19 @@ def markdown_body(text, token_begin, token_warn, token_end):
     readme_slice = text.split(token_begin)
     readme_slice.append(readme_slice[1].split(token_warn)[0])
     readme_slice.append(readme_slice[1].split(token_end)[1])
+    table = markdown_gen()
     markdown = (
         readme_slice[0]
         + token_begin
         + "\n"
         + token_warn
         + "\n"
-        + markdown_gen()
+        + table
         + "\n"
         + token_end
         + readme_slice[3]
     )
-    if markdown_gen() is "":
+    if table == "":
         return text
     else:
         return markdown
