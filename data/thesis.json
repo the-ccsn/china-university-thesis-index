@@ -139,6 +139,86 @@
       "gitee_repository": "",
       "ctan_package": "ctan.org/pkg/xtuthesis",
       "status": ""
+    },
+    {
+      "package_name": "chdthesis",
+      "institution_name": "长安大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/xiaoleeza/chdthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "hfut_thesis",
+      "institution_name": "合肥工业大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/HFUTTUG/HFUT_Thesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "njuthesis",
+      "institution_name": "南京大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/njuHan/njuthesis-nju-thesis-template",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "sysu-thesis",
+      "institution_name": "中山大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/SYSU-SCC/sysu-thesis",
+      "gitlab_repository": "gitlab.com/sysu-gitlab/latex-group/thesis",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": "教师支持"
+    },
+    {
+      "package_name": "ucasthesis",
+      "institution_name": "中国科学院大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/mohuangrui/ucasthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "ustcthesis",
+      "institution_name": "中国科学技术大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/ustctug/ustcthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": "官方"
+    },
+    {
+      "package_name": "whu-thesis",
+      "institution_name": "武汉大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/whutug/whu-thesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": "教师支持"
+    },
+    {
+      "package_name": "zjuthesis",
+      "institution_name": "浙江大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/TheNetAdmin/zjuthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
     }
   ]
 }

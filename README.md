@@ -15,14 +15,6 @@ For multi language version for this repository, please touch here to browse. Ple
 
 | 包名       | 学校           | 维护者性质            | GitHub仓库地址                    | Gitee仓库地址 | GitLab仓库地址 | CTAN仓库地址            | 已被学校承认 |
 | - | - | - | - | - | - | - | - |
-| chdthesis  | 长安大学       | 个人  | github.com/xiaoleeza/chdthesis      | 暂无          | 暂无           |   |              |
-| hfut_thesis | 合肥工业大学 | 组织 | github.com/HFUTTUG/HFUT_Thesis | 暂无 | 暂无 | 暂无 | 未知 |
-| njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template | 暂无 | 暂无 | |
-| sysu-thesis | 中山大学       | 组织 | github.com/SYSU-SCC/sysu-thesis | 暂无 | gitlab.com/sysu-gitlab/latex-group/thesis (Archived) |  | 教师支持 |
-| ucasthesis | 中国科学院大学       | 个人 | github.com/mohuangrui/ucasthesis | 暂无 | 暂无 | 暂无 | 未知 |
-| ustcthesis | 中国科学技术大学 | 组织 | github.com/ustctug/ustcthesis | 暂无 | 暂无 | 暂无 | 官方 |
-| whu-thesis | 武汉大学       | 组织 | github.com/whutug/whu-thesis | 暂无 | 暂无 | 暂无 | 教师支持 |
-| zjuthesis | 浙江大学       | 组织 | github.com/TheNetAdmin/zjuthesis | 暂无 | 暂无 | 暂无 | 未知 |
 
 <!-- MARKDOWN_TABLE END -->
 
