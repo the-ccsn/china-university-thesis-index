@@ -18,6 +18,7 @@ For multi language version for this repository, please touch here to browse. Ple
 | bjfuthesis | 北京林业大学 | 个人 | github.com/bjfu-projects/bjfuthesis |  |  | ctan.org/pkg/bjfuthesis |  |
 | buctthesis | 北京化工大学 | 个人 | github.com/Miracle0565/buctthesis |  |  | ctan.org/pkg/buctthesis | 暂未承认 |
 | cquthesis | 重庆大学 | 个人 | github.com/nanmu42/CQUThesis |  |  | ctan.org/pkg/cquthesis |  |
+| cucthesis | 中国传媒大学 | 个人 | github.com/YunYouJun/cucthesis | | | | |
 | fduthesis | 复旦大学 | 个人 | github.com/stone-zeng/fduthesis |  |  | ctan.org/pkg/fduthesis |  |
 | hithesis | 哈尔滨工业大学 | 个人 | github.com/dustincys/hithesis |  |  | ctan.org/pkg/hithesis |  |
 | hustthesis | 华中科技大学 | 组织 | github.com/hust-latex/hustthesis |  |  | ctan.org/pkg/hustthesis |  |
