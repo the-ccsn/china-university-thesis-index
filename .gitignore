@@ -1,1 +1,8 @@
+# What Jetbrains IDEA
 *.idea
+
+# VSCode
+.vscode/
+
+# If someone eats apples
+.DS_Store

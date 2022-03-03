@@ -33,7 +33,7 @@
     {
       "package_name": "cquthesis",
       "institution_name": "重庆大学",
-      "maintainer_type": "个人",
+      "maintainer_type": "组织",
       "github_repository": "github.com/nanmu42/CQUThesis",
       "gitlab_repository": "",
       "gitee_repository": "",
@@ -215,6 +215,26 @@
       "institution_name": "浙江大学",
       "maintainer_type": "组织",
       "github_repository": "github.com/TheNetAdmin/zjuthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "zzuthesis",
+      "institution_name": "郑州大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/tuxify/zzuthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "cucthesis",
+      "institution_name": "中国传媒大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/YunYouJun/cucthesis",
       "gitlab_repository": "",
       "gitee_repository": "",
       "ctan_package": "",
