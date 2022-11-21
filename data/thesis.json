@@ -164,10 +164,10 @@
       "package_name": "njuthesis",
       "institution_name": "南京大学",
       "maintainer_type": "组织",
-      "github_repository": "github.com/njuHan/njuthesis-nju-thesis-template",
+      "github_repository": "github.com/nju-lug/NJUThesis",
       "gitlab_repository": "",
       "gitee_repository": "",
-      "ctan_package": "",
+      "ctan_package": "njuthesis",
       "status": ""
     },
     {
