@@ -19,6 +19,7 @@
 | fduthesis | 复旦大学 | 个人 | github.com/stone-zeng/fduthesis |  |  | ctan.org/pkg/fduthesis |  |
 | hithesis | 哈尔滨工业大学 | 个人 | github.com/dustincys/hithesis |  |  | ctan.org/pkg/hithesis |  |
 | hustthesis | 华中科技大学 | 组织 | github.com/hust-latex/hustthesis |  |  | ctan.org/pkg/hustthesis |  |
+| njuthesis | 南京大学 | 组织 | github.com/nju-lug/NJUThesis |  |  | ctan.org/pkg/njuthesis |  |
 | pkuthss | 北京大学 | 未知 |  |  |  | ctan.org/pkg/pkuthss |  |
 | sduthesis | 山东大学 | 未知 |  |  |  | ctan.org/pkg/sduthesis |  |
 | seuthesix | 东南大学 | 个人 | github.com/zhimengfan1990/seuthesix |  |  | ctan.org/pkg/seuthesix |  |
@@ -29,7 +30,6 @@
 | chdthesis | 长安大学 | 个人 | github.com/xiaoleeza/chdthesis |  |  |  |  |
 | cucthesis | 中国传媒大学 | 个人 | github.com/YunYouJun/cucthesis |  |  |  |  |
 | hfut_thesis | 合肥工业大学 | 组织 | github.com/HFUTTUG/HFUT_Thesis |  |  |  |  |
-| njuthesis | 南京大学 | 组织 | github.com/njuHan/njuthesis-nju-thesis-template |  |  |  |  |
 | sysu-thesis | 中山大学 | 组织 | github.com/SYSU-SCC/sysu-thesis | gitlab.com/sysu-gitlab/latex-group/thesis |  |  | 教师支持 |
 | ucasthesis | 中国科学院大学 | 个人 | github.com/mohuangrui/ucasthesis |  |  |  |  |
 | ustcthesis | 中国科学技术大学 | 组织 | github.com/ustctug/ustcthesis |  |  |  | 官方 |
