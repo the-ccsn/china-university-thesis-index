@@ -8,6 +8,8 @@ For multi language version for this repository, please touch here to browse. Ple
 
 ## Thesis完整列表
 
+**注意：因为似乎好多朋友搞错了，这里说一下，不要直接改README，加在`/data/thesis.json`里就好（甚至不用管顺序喔！），有Python环境的可以顺便用`/src/main.py`跑一下生成（没生成也没关系，也很蟹蟹！）**
+
 出于方便中文学生的目的，可能后续会添加作业类的模板和各学校的PPT模板。
 
 <!-- MARKDOWN_TABLE BEGIN -->
