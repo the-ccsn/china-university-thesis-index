@@ -86,7 +86,7 @@ def repos(
         repo_list.append(
             "<b>GitLab Official:</b><br/>"
             + badge(
-                link=repository_github,
+                link=repository_gitlab,
                 maintainer_type=maintainer_type,
                 badge_type="gitlab",
             )
@@ -95,7 +95,7 @@ def repos(
         repo_list.append(
             "<b>Gitee:</b><br/>"
             + badge(
-                link=repository_github,
+                link=repository_gitee,
                 maintainer_type=maintainer_type,
                 badge_type="gitee",
             )
@@ -104,7 +104,7 @@ def repos(
         repo_list.append(
             "<b>Gitea Official:</b><br/>"
             + badge(
-                link=repository_github,
+                link=repository_gitea,
                 maintainer_type=maintainer_type,
                 badge_type="gitea",
             )
@@ -154,7 +154,10 @@ def markdown_entry(thesis_entry: dict):
             repository_gitee=thesis_entry["repository_gitee"],
             repository_gitea=thesis_entry["repository_gitea"],
         ),
-        thesis_entry["ctan_package"],
+        badge(
+            link=thesis_entry["ctan_package"],
+            badge_type="ctan",
+        ),
         thesis_entry["status"],
     ]
     return markdown_row(data)
