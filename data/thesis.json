@@ -241,10 +241,30 @@
       "status": ""
     },
     {
-      "package_name": "jluthesis",
+      "package_name": "jluthesis-geekifan",
       "institution_name": "吉林大学",
       "maintainer_type": "个人",
       "github_repository": "github.com/geekifan/jluthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "jluthesis-sakurashem",
+      "institution_name": "吉林大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/Sakura-shem/JLUThesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
+    },
+    {
+      "package_name": "buaathesis",
+      "institution_name": "北京航空航天大学",
+      "maintainer_type": "组织",
+      "github_repository": "github.com/BHOSC/BUAAthesis",
       "gitlab_repository": "",
       "gitee_repository": "",
       "ctan_package": "",
