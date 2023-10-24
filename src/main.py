@@ -34,20 +34,60 @@ def x_sort(data):
     data = sorted(data, key=cmp_to_key(compare))
     return data
 
-def badge(link: str, maintainer_type="组织"):
-    if link!="":
-        username=link.split("/")[1]
-        reponame=link.split("/")[2]
-        template="https://img.shields.io/badge/{{username}}%2F{{reponame}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{username}}%2F{{reponame}}"
-        if maintainer_type=="组织":
-            template=template.replace("{{color}}","blue")
-        else:
-            template=template.replace("{{color}}","green")
-        template=template.replace("{{username}}",username).replace("{{reponame}}",reponame)
 
-        return "![]("+template+")"
+def badge(link: str, maintainer_type="组织", repo_type="github")->str:
+    if link != "":
+        user_name = link.split("/")[1]
+        repo_name = link.split("/")[2]
+        link_template = "https://img.shields.io/badge/{{user_name}}%2F{{repo_name}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{user_name}}%2F{{repo_name}}"
+        if maintainer_type == "组织":
+            link_template = link_template.replace("{{color}}", "blue")
+        else:
+            link_template = link_template.replace("{{color}}", "green")
+        link_template = link_template.replace(
+            "{{user_name}}", user_name
+        ).replace("{{repo_name}}", repo_name)
+
+        return "![](" + link_template + ")"
     else:
         return link
+
+
+def repos(
+    maintainer_type: str,
+    repository_github: str,
+    repository_gitlab: str,
+    repository_gitee: str,
+    repository_gitea: str,
+):
+    repo_cell_template="<div>{{repo_list}}</div>"
+    repo_list=[]
+    if repository_github != "":
+        repo_list.append("<b>GitHub:</b><br/>"+badge(
+            link=repository_github,
+            maintainer_type=maintainer_type,
+            repo_type="github"
+        ))
+    if repository_gitlab != "":
+        repo_list.append("<b>GitLab Official:</b><br/>"+badge(
+            link=repository_github,
+            maintainer_type=maintainer_type,
+            repo_type="gitlab"
+        ))
+    if repository_gitee != "":
+        repo_list.append("<b>Gitee:</b><br/>"+badge(
+            link=repository_github,
+            maintainer_type=maintainer_type,
+            repo_type="gitee"
+        ))
+    if repository_gitea != "":
+        repo_list.append("<b>Gitea Official:</b><br/>"+badge(
+            link=repository_github,
+            maintainer_type=maintainer_type,
+            repo_type="gitea"
+        ))
+    
+    return ""
 
 
 def markdown_row(length: int, data: list):
@@ -78,14 +118,19 @@ def markdown_table(length: int):
     data = ["-", "-", "-", "-", "-", "-"]
     return markdown_row(length, data)
 
+
 def markdown_entry(thesis_entry: dict):
     data = [
         thesis_entry["package_name"],
         thesis_entry["institution_name"],
         thesis_entry["maintainer_type"],
-        badge(link=thesis_entry["repository_github"],maintainer_type=thesis_entry["maintainer_type"]), 
-        # thesis_entry["repository_gitlab"],
-        # thesis_entry["repository_gitee"],
+        repos(
+            maintainer_type=thesis_entry["maintainer_type"],
+            repository_github=thesis_entry["repository_github"],
+            repository_gitlab=thesis_entry["repository_gitlab"],
+            repository_gitee=thesis_entry["repository_gitee"],
+            repository_gitea=thesis_entry["repository_gitea"],
+        ),
         thesis_entry["ctan_package"],
         thesis_entry["status"],
     ]
