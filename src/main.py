@@ -65,13 +65,28 @@ def markdown_table(length: int):
     data = ["-", "-", "-", "-", "-", "-", "-", "-"]
     return markdown_row(length, data)
 
+def badge(link: str, type="组织"):
+    if link!="":
+        username=link.split("/")[1]
+        reponame=link.split("/")[2]
+        template="https://img.shields.io/badge/{{username}}%2F{{reponame}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{username}}%2F{{reponame}}"
+        if type=="组织":
+            template=template.replace("{{color}}","blue")
+        else:
+            template=template.replace("{{color}}","green")
+        template=template.replace("{{username}}",username).replace("{{reponame}}",reponame)
+
+        return "![]("+template+")"
+    else:
+        return link
+
 
 def markdown_entry(thesis_entry: dict):
     data = [
         thesis_entry["package_name"],
         thesis_entry["institution_name"],
         thesis_entry["maintainer_type"],
-        thesis_entry["github_repository"],
+        badge(thesis_entry["github_repository"],thesis_entry["maintainer_type"]), 
         thesis_entry["gitlab_repository"],
         thesis_entry["gitee_repository"],
         thesis_entry["ctan_package"],
