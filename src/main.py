@@ -106,10 +106,10 @@ def repos(
     return repo_cell_template.replace("{{repo_list}}", "<br/>".join(repo_list))
 
 
-def markdown_row(length: int, data: list):
+def markdown_row(data: list):
     string = ""
-    for i in range(length):
-        string += "| " + str(data[i]) + " "
+    for i in data:
+        string += "| " + i + " "
     string += "|\n"
     return string
 
@@ -127,12 +127,12 @@ def markdown_header(translation: dict, locale: str):
         locale_translation["ctan_package"],
         locale_translation["status"],
     ]
-    return markdown_row(len(data), data)
+    return markdown_row(data)
 
 
 def markdown_table(length: int):
     data = ["-", "-", "-", "-", "-", "-"]
-    return markdown_row(length, data)
+    return markdown_row(data)
 
 
 def markdown_entry(thesis_entry: dict):
@@ -150,7 +150,7 @@ def markdown_entry(thesis_entry: dict):
         thesis_entry["ctan_package"],
         thesis_entry["status"],
     ]
-    return markdown_row(len(data), data)
+    return markdown_row(data)
 
 
 def markdown_gen(locale: str):
