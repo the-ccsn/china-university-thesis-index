@@ -35,15 +35,17 @@ def x_sort(data):
     return data
 
 
-def badge(link: str, maintainer_type="组织", repo_type="github")->str:
+def badge(link: str, maintainer_type="组织", badge_type="github") -> str:
     if link != "":
+        link_template = "https://img.shields.io/badge/{{user_name}}%2F{{repo_name}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{user_name}}%2F{{repo_name}}"
         user_name = link.split("/")[1]
         repo_name = link.split("/")[2]
-        link_template = "https://img.shields.io/badge/{{user_name}}%2F{{repo_name}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{user_name}}%2F{{repo_name}}"
-        if maintainer_type == "组织":
+        if maintainer_type == "组织" or maintainer_type == "orgs":
             link_template = link_template.replace("{{color}}", "blue")
-        else:
+        elif maintainer_type == "个人" or maintainer_type == "user":
             link_template = link_template.replace("{{color}}", "green")
+        else:
+            link_template = link_template.replace("{{color}}", "red")
         link_template = link_template.replace(
             "{{user_name}}", user_name
         ).replace("{{repo_name}}", repo_name)
@@ -51,6 +53,8 @@ def badge(link: str, maintainer_type="组织", repo_type="github")->str:
         return "![](" + link_template + ")"
     else:
         return link
+    if badge_type == "ctan":
+        pass
 
 
 def repos(
@@ -60,34 +64,46 @@ def repos(
     repository_gitee: str,
     repository_gitea: str,
 ):
-    repo_cell_template="<div>{{repo_list}}</div>"
-    repo_list=[]
+    repo_cell_template = "<div>{{repo_list}}</div>"
+    repo_list = []
     if repository_github != "":
-        repo_list.append("<b>GitHub:</b><br/>"+badge(
-            link=repository_github,
-            maintainer_type=maintainer_type,
-            repo_type="github"
-        ))
+        repo_list.append(
+            "<b>GitHub:</b><br/>"
+            + badge(
+                link=repository_github,
+                maintainer_type=maintainer_type,
+                badge_type="github",
+            )
+        )
     if repository_gitlab != "":
-        repo_list.append("<b>GitLab Official:</b><br/>"+badge(
-            link=repository_github,
-            maintainer_type=maintainer_type,
-            repo_type="gitlab"
-        ))
+        repo_list.append(
+            "<b>GitLab Official:</b><br/>"
+            + badge(
+                link=repository_github,
+                maintainer_type=maintainer_type,
+                badge_type="gitlab",
+            )
+        )
     if repository_gitee != "":
-        repo_list.append("<b>Gitee:</b><br/>"+badge(
-            link=repository_github,
-            maintainer_type=maintainer_type,
-            repo_type="gitee"
-        ))
+        repo_list.append(
+            "<b>Gitee:</b><br/>"
+            + badge(
+                link=repository_github,
+                maintainer_type=maintainer_type,
+                badge_type="gitee",
+            )
+        )
     if repository_gitea != "":
-        repo_list.append("<b>Gitea Official:</b><br/>"+badge(
-            link=repository_github,
-            maintainer_type=maintainer_type,
-            repo_type="gitea"
-        ))
-    
-    return ""
+        repo_list.append(
+            "<b>Gitea Official:</b><br/>"
+            + badge(
+                link=repository_github,
+                maintainer_type=maintainer_type,
+                badge_type="gitea",
+            )
+        )
+
+    return repo_cell_template.replace("{{repo_list}}", "<br/>".join(repo_list))
 
 
 def markdown_row(length: int, data: list):
