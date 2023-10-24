@@ -76,8 +76,8 @@
       "maintainer_type": "未知",
       "repository_github": "",
       "repository_gitlab": "",
-      "repository_gitee": "gitea.com/CasperVector/pkuthss",
-      "repository_gitea": "", 
+      "repository_gitee": "",
+      "repository_gitea": "gitea.com/CasperVector/pkuthss", 
       "ctan_package": "ctan.org/pkg/pkuthss",
       "status": ""
     },

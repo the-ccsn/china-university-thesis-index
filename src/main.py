@@ -36,25 +36,32 @@ def x_sort(data):
 
 
 def badge(link: str, maintainer_type="组织", badge_type="github") -> str:
-    if link != "":
-        link_template = "https://img.shields.io/badge/{{user_name}}%2F{{repo_name}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{user_name}}%2F{{repo_name}}"
-        user_name = link.split("/")[1]
-        repo_name = link.split("/")[2]
+    host = ["github", "gitlab", "gitee", "gitea"]
+    if link == "":
+        return link
+    if badge_type in host:
+        link_template = "https://img.shields.io/badge/{{user_name}}%2F{{repo_name}}-{{color}}?logo={{badge_type}}&link=https%3A%2F%2Fgithub.com%2F{{user_name}}%2F{{repo_name}}"
+        user_name = link.split("/")[1].replace("-", "--")
+        repo_name = link.split("/")[2].replace("-", "--")
         if maintainer_type == "组织" or maintainer_type == "orgs":
             link_template = link_template.replace("{{color}}", "blue")
         elif maintainer_type == "个人" or maintainer_type == "user":
             link_template = link_template.replace("{{color}}", "green")
         else:
             link_template = link_template.replace("{{color}}", "red")
-        link_template = link_template.replace(
-            "{{user_name}}", user_name
-        ).replace("{{repo_name}}", repo_name)
-
+        link_template = (
+            link_template.replace("{{user_name}}", user_name)
+            .replace("{{repo_name}}", repo_name)
+            .replace("{{badge_type}}", badge_type)
+        )
+        return "![](" + link_template + ")"
+    elif badge_type == "ctan":
+        link_template = "https://img.shields.io/badge/ctan-{{thesis}}-lightgray?link=https%3A%2F%2Fctan.org%2Fpkg%2F{{thesis}}"
+        thesis_name = link.replace("ctan.org/pkg/", "")
+        link_template = link_template.replace("{{thesis}}", thesis_name)
         return "![](" + link_template + ")"
     else:
         return link
-    if badge_type == "ctan":
-        pass
 
 
 def repos(
