@@ -21,7 +21,6 @@ For multi language version for this repository, please touch here to browse. Ple
 | fduthesis | 复旦大学 | 个人 | github.com/stone-zeng/fduthesis |  |  | ctan.org/pkg/fduthesis |  |
 | hithesis | 哈尔滨工业大学 | 个人 | github.com/dustincys/hithesis |  |  | ctan.org/pkg/hithesis |  |
 | hustthesis | 华中科技大学 | 组织 | github.com/hust-latex/hustthesis |  |  | ctan.org/pkg/hustthesis |  |
-| jluthesis | 吉林大学 | 个人 | github.com/geekifan/jluthesis |  |  |  |  |
 | njuthesis | 南京大学 | 组织 | github.com/nju-lug/NJUThesis |  |  | ctan.org/pkg/njuthesis |  |
 | pkuthss | 北京大学 | 未知 |  |  |  | ctan.org/pkg/pkuthss |  |
 | sduthesis | 山东大学 | 未知 |  |  |  | ctan.org/pkg/sduthesis |  |

@@ -239,6 +239,16 @@
       "gitee_repository": "",
       "ctan_package": "",
       "status": ""
+    },
+    {
+      "package_name": "jluthesis",
+      "institution_name": "吉林大学",
+      "maintainer_type": "个人",
+      "github_repository": "github.com/geekifan/jluthesis",
+      "gitlab_repository": "",
+      "gitee_repository": "",
+      "ctan_package": "",
+      "status": ""
     }
   ]
 }
