@@ -76,7 +76,7 @@
       "maintainer_type": "未知",
       "github_repository": "",
       "gitlab_repository": "",
-      "gitee_repository": "",
+      "gitee_repository": "gitea.com/CasperVector/pkuthss",
       "ctan_package": "ctan.org/pkg/pkuthss",
       "status": ""
     },
@@ -84,7 +84,7 @@
       "package_name": "sduthesis",
       "institution_name": "山东大学",
       "maintainer_type": "未知",
-      "github_repository": "",
+      "github_repository": "github.com/Liam0205/sduthesis",
       "gitlab_repository": "",
       "gitee_repository": "",
       "ctan_package": "ctan.org/pkg/sduthesis",
