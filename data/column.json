@@ -7,9 +7,7 @@
         "package_name": "Package Name",
         "institution_name": "Institution Name",
         "maintainer_type": "Maintainer Type",
-        "github_repository": "Github Repository",
-        "gitlab_repository": "Gitlab Repository",
-        "gitee_repository": "Gitee Repository",
+        "repository": "Repository",
         "ctan_package": "CTAN Package",
         "status": "Status"
       }
@@ -20,9 +18,7 @@
         "package_name": "包名",
         "institution_name": "学校",
         "maintainer_type": "维护者性质",
-        "github_repository": "GitHub仓库地址",
-        "gitlab_repository": "Gitee仓库地址",
-        "gitee_repository": "GitLab仓库地址",
+        "repository": "仓库地址",
         "ctan_package": "CTAN仓库地址",
         "status": "被学校承认状态"
       }

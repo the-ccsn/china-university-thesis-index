@@ -34,6 +34,21 @@ def x_sort(data):
     data = sorted(data, key=cmp_to_key(compare))
     return data
 
+def badge(link: str, maintainer_type="组织"):
+    if link!="":
+        username=link.split("/")[1]
+        reponame=link.split("/")[2]
+        template="https://img.shields.io/badge/{{username}}%2F{{reponame}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{username}}%2F{{reponame}}"
+        if maintainer_type=="组织":
+            template=template.replace("{{color}}","blue")
+        else:
+            template=template.replace("{{color}}","green")
+        template=template.replace("{{username}}",username).replace("{{reponame}}",reponame)
+
+        return "![]("+template+")"
+    else:
+        return link
+
 
 def markdown_row(length: int, data: list):
     string = ""
@@ -52,9 +67,7 @@ def markdown_header(translation: dict, locale: str):
         locale_translation["package_name"],
         locale_translation["institution_name"],
         locale_translation["maintainer_type"],
-        locale_translation["github_repository"],
-        locale_translation["gitlab_repository"],
-        locale_translation["gitee_repository"],
+        locale_translation["repository"],
         locale_translation["ctan_package"],
         locale_translation["status"],
     ]
@@ -62,33 +75,17 @@ def markdown_header(translation: dict, locale: str):
 
 
 def markdown_table(length: int):
-    data = ["-", "-", "-", "-", "-", "-", "-", "-"]
+    data = ["-", "-", "-", "-", "-", "-"]
     return markdown_row(length, data)
-
-def badge(link: str, type="组织"):
-    if link!="":
-        username=link.split("/")[1]
-        reponame=link.split("/")[2]
-        template="https://img.shields.io/badge/{{username}}%2F{{reponame}}-{{color}}?logo=github&link=https%3A%2F%2Fgithub.com%2F{{username}}%2F{{reponame}}"
-        if type=="组织":
-            template=template.replace("{{color}}","blue")
-        else:
-            template=template.replace("{{color}}","green")
-        template=template.replace("{{username}}",username).replace("{{reponame}}",reponame)
-
-        return "![]("+template+")"
-    else:
-        return link
-
 
 def markdown_entry(thesis_entry: dict):
     data = [
         thesis_entry["package_name"],
         thesis_entry["institution_name"],
         thesis_entry["maintainer_type"],
-        badge(thesis_entry["github_repository"],thesis_entry["maintainer_type"]), 
-        thesis_entry["gitlab_repository"],
-        thesis_entry["gitee_repository"],
+        badge(link=thesis_entry["repository_github"],maintainer_type=thesis_entry["maintainer_type"]), 
+        # thesis_entry["repository_gitlab"],
+        # thesis_entry["repository_gitee"],
         thesis_entry["ctan_package"],
         thesis_entry["status"],
     ]
