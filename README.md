@@ -59,3 +59,7 @@
 1. 已经被收录CTAN的优先，未收录的次之
 2. 按照包名完整名称字母表顺序排序，排序中省略下划线等连接符，仅考虑字母
 3. 排序将在每月第1个周日手动更新，未来考虑引入Github Action
+
+## 其他索引
+
+* https://github.com/ustctug/awesome-latex-thesis
